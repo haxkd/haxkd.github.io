@@ -150,7 +150,7 @@ header ul li a {
     display: flex;
     gap: 20px;
     padding: 100px;
-   
+    padding-bottom: 10px;
 }
 
 .social li {
@@ -174,7 +174,7 @@ header ul li a {
     z-index: 1000;
     color: #2196f3;
     display: inline-block;
-    transform: scale(15) translateY(-10px) rotate(36000deg);
+    transform: scale(1.5) translateY(-10px) rotate(360deg);
 }
 
 
@@ -194,6 +194,9 @@ header ul li a {
         display: block;
     }
 
+    .content{
+        margin-top: 70px;
+    }
     
 
     .content h2 #text {
