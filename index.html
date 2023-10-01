@@ -56,10 +56,13 @@
                     <a href="http://github.com/haxkd"><i class="fab fa-github"></i></a>
                 </li>
             </ul>
-            <p class="copyright">ITz HAXKD &copy; 2022</p>
+            <p class="copyright"> &copy; <span id="year"></span></p>
+
+            
         </footer>
 
     </section>
+    <hr>
 
     <script>
         let menuToggle = document.querySelector('.toggle');
@@ -71,6 +74,13 @@
             sec.classList.toggle('active');
             sec.classList.toggle('hide');
         }
+    </script>
+    <script type="text/javascript">
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        document.getElementById("year").innerHTML = yyyy;
     </script>
 </body>
 

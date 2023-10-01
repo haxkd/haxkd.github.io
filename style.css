@@ -3,11 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: serif;
+
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    background: linear-gradient(to bottom, #F5F5F5, #E0E0E0); 
+    color: #0055a5; /* Darker Blue */
+
 }
 
 .navigation {
@@ -202,6 +206,7 @@ header {
 }
 
 footer {
+    height: 50px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -268,9 +273,11 @@ footer {
 
 i{
 font-size:40px;
-color:#F4E33F;
+color:#09a62b;
+transition: all .3s linear;
 }
 i:hover{
-	font-size:50px;
+    transform: scale(1.5) rotate(360deg);
+
 	color:#068F88;
 }
