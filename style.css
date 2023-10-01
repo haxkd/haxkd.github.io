@@ -7,15 +7,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background:url(cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+}
 .banner {
 
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
     padding: 100px;
-    background-color: white;
+    /* background-color: white; */
     transition: 0.5s;
     overflow: hidden;
     padding-bottom: 10px;
@@ -33,7 +40,7 @@ header {
 }
 
 header .logo {
-    color: black;
+    color: white;
     font-size: 2em;
     font-weight: 700;
     text-decoration: none;
@@ -74,14 +81,14 @@ header ul li a {
 
 .content h3 {
     font-size: 2em;
-    color: #333;
-    font-weight: 200;
+    color: #fff;
+    font-weight: 300;
     transition: 0.5s
 }
 
 .content h2 {
     font-size: 3em;
-    color: black;
+    color: #fff;
     font-weight: 700;
     transition: 0.5s
 }
@@ -97,7 +104,7 @@ header ul li a {
 
 .content p {
     font-size: 1.2em;
-    color: #666;
+    color: #fff;
     margin: 20px 0;
     transition: 0.5s;
 }
@@ -145,8 +152,6 @@ header ul li a {
 
 
 .social {
-    /* position: absolute;
-    bottom: 30px; */
     display: flex;
     gap: 20px;
     padding: 100px;
@@ -160,14 +165,13 @@ header ul li a {
 .social li a {
     text-decoration: none;
     font-size: 1.75em;
-    color: #57041f;
+    color: #fff;
     transition: all .5s linear;
 }
 
 .social li i {
     transition: all .3s linear;
     position: relative;
-    background-color: white;
 }
 
 .social li i:hover {
@@ -180,7 +184,7 @@ header ul li a {
 
 
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .banner {
         padding: 20px;
         flex-direction: column;
