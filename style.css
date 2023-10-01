@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100vh;
+    overflow: hidden;
 }
 .banner {
 
@@ -180,8 +181,31 @@ header ul li a {
     display: inline-block;
     transform: scale(1.5) translateY(-10px) rotate(360deg);
 }
+.container-circle {
+    position: relative;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+}
 
-
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+}
 
 
 @media (max-width:900px) {
@@ -213,5 +237,11 @@ header ul li a {
     .social {
         padding-top: 20px;
         padding-bottom: 10px;
+    }
+    .circle {
+        display: none;
+    }
+    .container-circle {
+        overflow: hidden;
     }
 }
