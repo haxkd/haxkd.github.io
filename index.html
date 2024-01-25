@@ -75,6 +75,13 @@
             dot.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`;
         });
 
+        document.body.onmouseover = ()=>{
+            document.body.classList.add("showdot")
+        }
+        document.body.onmouseout = ()=>{
+            document.body.classList.remove("showdot")
+        }
+
 
     </script>
 </body>

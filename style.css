@@ -239,9 +239,18 @@ header ul li a {
         padding-bottom: 10px;
     }
     .circle {
-        display: none;
+        /* display: none; */
     }
     .container-circle {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
+}
+
+.container-circle{
+    display: none;
+}
+
+
+.showdot .container-circle{
+    display: block;
 }
