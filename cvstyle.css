@@ -178,6 +178,7 @@ p {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    gap: 10px;
 }
 
 .about .box .year_company {
@@ -190,7 +191,7 @@ p {
     font-weight: 600;
 }
 
-.about .box .text h4 {
+.about .box h4 {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
