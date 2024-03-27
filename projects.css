@@ -19,7 +19,7 @@ body {
     margin-top: 10px;
     color: white;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.5rem;
 }
 
 .expertises {
@@ -51,15 +51,17 @@ body {
     margin-bottom: 5px;
     transition: 0.5s;
 }
-
+.expertise-title a{
+    color: white;
+}
 .expertise-desc {
-    min-height: 100px;
     color: #fff;
     font-weight: 400;
     line-height: 1.4em;
     position: relative;
     padding-left: 40px;
     transition: 0.5s;
+    height: 130px;
 }
 
 .expertise-desc .description::before {
@@ -93,7 +95,9 @@ body {
     left: 17px;
 }
 .expertise-desc .description{
-    padding-top: 25px;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 
@@ -102,8 +106,5 @@ body {
         max-width: 100%;
         min-width: 100%;
         width: 100%;
-    }
-    .expertise-desc {
-        min-height: 130px;
     }
 }
