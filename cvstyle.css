@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
     border-radius: 20px;
 }
 
@@ -106,6 +113,7 @@ a{
 .contactInfo ul li span {
     color: #fff;
     font-weight: 300;
+    font-size: 12.5px;
 }
 
 .contactInfo.education li {
@@ -183,7 +191,9 @@ p {
 
 .about .box .year_company {
     min-width: 150px;
+    flex: 1;
 }
+
 
 .about .box .year_company h5 {
     text-transform: uppercase;
@@ -198,6 +208,16 @@ p {
     line-height: 1em;
 }
 
+.about .text {
+    flex: 1;
+}
+.about .text h5{
+    font-size: 16px;
+    color: black;
+}
+.about p{
+    font-size: 15px;
+}
 .skills .box {
     position: relative;
     width: 100%;
@@ -249,7 +269,7 @@ p {
 
 .declaration {
     position: relative;
-    height: 150px;
+    height: 190px;
 }
 
 .declaration .declare {
