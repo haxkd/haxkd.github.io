@@ -108,3 +108,9 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width:900px){
+    .expertise-title {
+        font-size: 1.2em;
+    }
+}

@@ -307,9 +307,7 @@ li>span {
         grid-template-columns: repeat(1, 1fr);
         height: 50px;
     }
-    .expertise-title {
-        font-size: 1.2em;
-    }
+
 }
 
 .bottom {
