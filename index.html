@@ -34,7 +34,7 @@
             <h3>Hi,</h3>
             <h2><span class="iam">I am</span> <span id="text"></span></h2>
             <p>I am a 23-year-old who has successfully earned a bachelor's degree in computer science, and I am
-                currently engaged in continuous learning to further enhance my skills.</p>
+                currently working as Software Engineer and engaged in continuous learning to further enhance my skills.</p>
             <div class="buttons">
                 <a href="projects.html" target="_blank"><button data-text="My Projects">My Projects</button></a>
                 <a href="cv.html" target="_blank"><button data-text="My CV">My CV</button></a>
@@ -43,12 +43,17 @@
     </section>
 
     <ul class="social">
-        <li class="bounce-animation"><a href="http://facebook.com/haxkd"  target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-        <li class="rotate-animation "><a href="http://instagram.com/haxkd_official" target="_blank"><i class="fa-brands text-orange fa-instagram"></i></a>
+        <li class="bounce-animation"><a href="http://facebook.com/haxkd" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a></li>
+        <li class="rotate-animation "><a href="http://instagram.com/haxkd_official" target="_blank"><i
+                    class="fa-brands text-orange fa-instagram"></i></a>
         </li>
-        <li class="swing-animation"><a href="https://www.linkedin.com/in/haxkd/" target="_blank"><i class="fa-brands text-blue fa-linkedin"></i></a></li>
-        <li class="flash-animation"><a href="http://github.com/haxkd" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-        <li class="pulse-animation"><a href="https://twitter.com/abulhax" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+        <li class="swing-animation"><a href="https://www.linkedin.com/in/haxkd/" target="_blank"><i
+                    class="fa-brands text-blue fa-linkedin"></i></a></li>
+        <li class="flash-animation"><a href="https://github.com/haxkd" target="_blank"><i
+                    class="fa-brands fa-github"></i></a></li>
+        <li class="pulse-animation"><a href="https://twitter.com/abulhax" target="_blank"><i
+                    class="fa-brands fa-x-twitter"></i></a></li>
     </ul>
 
 
@@ -56,7 +61,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         const text = new Typed("#text", {
-            strings: ["Abul Hasan", "^1000Web Developer"],
+            strings: ["Abul Hasan", "^1000Software Engineer"],
             loop: true,
             typeSpeed: 100,
             backSpeed: 50,
@@ -69,16 +74,16 @@
         const dot = document.querySelector(".dot");
 
         document.addEventListener("mousemove", (e) => {
-            const x = e.clientX-2;
-            const y = e.clientY-2;
+            const x = e.clientX - 2;
+            const y = e.clientY - 2;
             circle.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`;
             dot.style.transform = `translate(${x}px, ${y}px) translate(-50%, -50%)`;
         });
 
-        document.body.onmouseover = ()=>{
+        document.body.onmouseover = () => {
             document.body.classList.add("showdot")
         }
-        document.body.onmouseout = ()=>{
+        document.body.onmouseout = () => {
             document.body.classList.remove("showdot")
         }
 
